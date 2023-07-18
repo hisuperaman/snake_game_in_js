@@ -1,5 +1,5 @@
 //variables
-const targetFPS = 10;
+const targetFPS = 8;
 const targetFrameTime = 1000/targetFPS;
 
 const moveSFX = new Audio('music/move.mp3');
