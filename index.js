@@ -172,28 +172,28 @@ function play(){
         switch(key){
             case 'ArrowUp':
                 if(newDir.y != 1){
-	 	    moveSFX.play();
+	 	            moveSFX.play();
                     newDir.x = 0;
                     newDir.y = -1;
                 }
                 break;
             case 'ArrowDown':
                 if(newDir.y != -1){
-		    moveSFX.play();
+		            moveSFX.play();
                     newDir.x = 0;
                     newDir.y = 1;
                 }
                 break;
             case 'ArrowLeft':
                 if(newDir.x != 1){
-		    moveSFX.play();
+		            moveSFX.play();
                     newDir.x = -1;
                     newDir.y = 0;
                 }
                 break;
             case 'ArrowRight':
                 if(newDir.x != -1){
-		    moveSFX.play();
+		            moveSFX.play();
                     newDir.x = 1;
                     newDir.y = 0;
                 }
