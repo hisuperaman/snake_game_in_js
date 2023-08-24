@@ -1,5 +1,5 @@
 # snake_game_in_js
-A simple snake game made with HTML, CSS, JavaScript
+A simple snake game made with HTML, CSS, JavaScript using CSS Grid
 
 <h2>Screenshots</h2>
 <hr>
